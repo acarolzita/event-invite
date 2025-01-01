@@ -1,0 +1,113 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Invitation Container */
+.invitation-container {
+  background-color: white;
+  padding: 30px;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Event Header */
+.event-header h1 {
+  font-size: 3em;
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+.event-date-time, .event-location {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Event Details Section */
+.event-details {
+  margin-top: 20px;
+}
+
+.event-details h2 {
+  font-size: 2em;
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+.event-details p {
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.5;
+}
+
+.activities-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.activities-list li {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+/* Guest List Section */
+.guest-list {
+  margin-top: 30px;
+}
+
+.guest-list h2 {
+  font-size: 2em;
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+.guest-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.guest-list ul li {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Confirmation Button */
+.confirmation {
+  margin-top: 40px;
+}
+
+#confirm-btn {
+  background-color: #ff6347;
+  color: white;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#confirm-btn:hover {
+  background-color: #e5533f;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
